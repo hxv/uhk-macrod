@@ -4,9 +4,10 @@ Plays macro saved under first pressed key. If first pressed key is `2/@` then pl
 Use [`MacroRecord`](MacroRecord.md) to record new macros.
 
 ```
-begin:
-    postponeKeys ifNotPending 1 goTo begin
-    ifNotKeyPendingAt 0 66 setReg 1 %0
-    consumePending 1
-    playMacro #1
+setLedTxt 0 PLY
+postponeKeys ifNotPending 1 goTo @0
+ifNotKeyPendingAt 0 66 setReg 1 %0
+consumePending 1
+playMacro #1
+setLedTxt 1
 ```
