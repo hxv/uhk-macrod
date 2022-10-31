@@ -3,6 +3,8 @@ Outputs "normal" key after pressing it for less than 150ms, and Shift+key after 
 
 In all variants I remapped all character keys to the macro - so keyboard glows purple all the time :)
 
+![Base layer](/Pictures/AuthShift-Base.png)
+
 ## Attempt #1
 I created two layers - fn4 with all remapped keys, and fn5 with all remapped keys with shift modifier.
 
@@ -27,6 +29,12 @@ shift:
 
     break
 ```
+
+### Layer FN4
+![FN4](/Pictures/AuthShift-FN4.png)
+
+### Layer FN5
+![FN5](/Pictures/AuthShift-FN5.png)
 
 ## Attempt #2
 No extra layers needed, but macro is very long, and uses register 3 to store pressed key.
